@@ -46,10 +46,13 @@ export default function AgendamentoPage() {
       <section className="section-padding bg-white">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
-            <div
-              className="calendly-inline-widget rounded-2xl overflow-hidden shadow-lg"
-              data-url="https://calendly.com/madualvesfr/30min?hide_gdpr_banner=1&background_color=f7f3f0&text_color=3d3d3d&primary_color=6b5b95"
-              style={{ minWidth: "320px", height: "700px" }}
+            <iframe
+              src="https://calendly.com/madualvesfr/30min?hide_gdpr_banner=1&background_color=f7f3f0&text_color=3d3d3d&primary_color=6b5b95"
+              width="100%"
+              height="700"
+              frameBorder="0"
+              title="Agendar consulta"
+              className="rounded-2xl shadow-lg"
             />
           </div>
         </div>
