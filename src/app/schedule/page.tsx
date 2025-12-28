@@ -1,6 +1,8 @@
 "use client";
 
+import { useEffect } from "react";
 import Link from "next/link";
+import Script from "next/script";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function AgendamentoPage() {
@@ -8,6 +10,12 @@ export default function AgendamentoPage() {
 
   return (
     <>
+      {/* Calendly Script */}
+      <Script
+        src="https://assets.calendly.com/assets/external/widget.js"
+        strategy="lazyOnload"
+      />
+
       {/* Hero */}
       <section className="bg-gradient-to-b from-secondary to-white py-16 md:py-20">
         <div className="container-custom">
@@ -51,17 +59,12 @@ export default function AgendamentoPage() {
                 </div>
               </div>
 
-              {/* Calendly iframe */}
-              <div className="p-2 md:p-4">
-                <iframe
-                  src="https://calendly.com/madualvesfr/30min?hide_gdpr_banner=1&hide_event_type_details=1&background_color=ffffff&text_color=3d3d3d&primary_color=6b5b95"
-                  width="100%"
-                  height="650"
-                  frameBorder="0"
-                  title="Agendar consulta"
-                  className="rounded-xl"
-                />
-              </div>
+              {/* Calendly widget */}
+              <div
+                className="calendly-inline-widget"
+                data-url="https://calendly.com/madualvesfr/30min?hide_gdpr_banner=1&background_color=ffffff&text_color=3d3d3d&primary_color=6b5b95"
+                style={{ minWidth: "320px", height: "700px" }}
+              />
             </div>
           </div>
         </div>
