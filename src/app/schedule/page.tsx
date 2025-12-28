@@ -54,7 +54,7 @@ export default function AgendamentoPage() {
                     />
                   </svg>
                   <h2 className="text-white font-heading text-xl md:text-2xl font-semibold">
-                    Escolha o melhor horário para você
+                    {t.schedulePage.calendarHeader}
                   </h2>
                 </div>
               </div>
