@@ -3,27 +3,23 @@
 ## Funcionalidades Solicitadas pela Cliente
 
 ### 1. Sistema de Agendamento de Consultas
-**Status:** Pendente
+**Status:** ✅ Concluído
 **Prioridade:** Alta
 
-**Requisitos:**
-- [ ] Calendário interativo para visualizar horários disponíveis
-- [ ] Seleção de data e hora para agendamento
-- [ ] Formulário de dados do paciente (nome, email, telefone)
-- [ ] Confirmação de agendamento por email
-- [ ] Painel para a psicóloga gerenciar sua agenda
-- [ ] Opção de cancelar/remarcar consulta
-- [ ] Lembretes automáticos por email (24h antes)
+**Implementação Realizada:**
+- [x] Integração com Calendly (opção escolhida)
+- [x] Calendário interativo para visualizar horários disponíveis
+- [x] Seleção de data e hora para agendamento
+- [x] Formulário de dados do paciente (via Calendly)
+- [x] Confirmação de agendamento por email (via Calendly)
+- [x] Sincronização com Google Calendar
+- [x] Página de agendamento com design responsivo
 
-**Opções de Implementação:**
-1. Integração com Calendly (mais simples)
-2. Integração com Google Calendar API
-3. Sistema próprio com banco de dados
-
-**Considerações:**
-- Definir duração padrão das consultas (50 min)
-- Definir horários de atendimento
-- Fuso horário (Espanha - CET)
+**Detalhes:**
+- Link do Calendly: https://calendly.com/madualvesfr/30min
+- Widget embutido na página /schedule
+- Duração: 30 minutos
+- Fuso horário: Central European Time (CET)
 
 ---
 
@@ -73,10 +69,7 @@
 
 ## Perguntas para a Cliente
 
-1. **Agendamento:**
-   - Prefere usar uma ferramenta pronta (Calendly) ou sistema próprio?
-   - Quais dias e horários está disponível para atendimento?
-   - Consulta tem duração fixa de 50 minutos?
+1. ~~**Agendamento:**~~ ✅ Resolvido com Calendly
 
 2. **Pagamento:**
    - Qual o valor da consulta?
@@ -86,7 +79,7 @@
 
 3. **Geral:**
    - Precisa de área de login para pacientes?
-   - Quer receber notificações de novos agendamentos?
+   - Quer receber notificações de novos agendamentos? (já configurado no Calendly)
 
 ---
 
@@ -99,11 +92,23 @@
 - Framer Motion
 - TypeScript
 
-**Para Agendamento/Pagamento será necessário:**
-- Backend (API Routes do Next.js ou serviço externo)
-- Banco de dados (se sistema próprio)
-- Serviço de email (para confirmações)
-- Conta no gateway de pagamento
+**Para Sistema de Pagamento será necessário:**
+- Conta no gateway de pagamento (Stripe/PayPal)
+- Configuração de webhook para confirmação
+- Página de checkout
+
+**Integrações Ativas:**
+- Calendly (agendamento)
+- Google Calendar (sincronização de agenda)
+
+---
+
+## Histórico de Atualizações
+
+| Data | Alteração |
+|------|-----------|
+| 28/12/2024 | Documento criado |
+| 28/12/2024 | Sistema de agendamento implementado com Calendly |
 
 ---
 
