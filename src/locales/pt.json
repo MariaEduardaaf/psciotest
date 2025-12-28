@@ -1,0 +1,569 @@
+{
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "services": "Serviços",
+    "howItWorks": "Como Funciona",
+    "faq": "Perguntas",
+    "contact": "Contato",
+    "schedule": "Agendar"
+  },
+  "hero": {
+    "badge": "Psicóloga Online",
+    "title": "Cuidando da sua",
+    "titleHighlight": "saúde mental",
+    "titleEnd": "de qualquer lugar do mundo",
+    "description": "Atendimento psicológico online em russo e ucraniano. Um espaço seguro e acolhedor para você cuidar de si, com a comodidade de estar onde estiver.",
+    "cta": "Agendar Consulta",
+    "learnMore": "Conhecer Mais",
+    "badges": {
+      "confidential": "100% Confidencial",
+      "online": "Atendimento Online",
+      "languages": "Russo e Ucraniano"
+    }
+  },
+  "about": {
+    "badge": "Sobre Mim",
+    "title": "Olá, eu sou a Love",
+    "description": "Psicóloga clínica dedicada a oferecer um espaço seguro e acolhedor para o seu desenvolvimento pessoal e bem-estar emocional.",
+    "text1": "Sou psicóloga clínica com paixão por ajudar pessoas a encontrarem equilíbrio emocional e desenvolverem uma relação mais saudável consigo mesmas e com os outros.",
+    "text2": "Minha abordagem é centrada na pessoa, respeitando sua individualidade e seu ritmo. Acredito que cada pessoa possui recursos internos para superar desafios e alcançar seus objetivos, e meu papel é facilitar esse processo de descoberta e transformação.",
+    "text3": "Ofereço atendimento em russo e ucraniano, proporcionando um espaço onde você pode se expressar livremente em seu idioma nativo. Isso é especialmente importante para expatriados e pessoas que vivem fora de seus países de origem.",
+    "quote": "Acredito que o processo terapêutico é uma jornada de autoconhecimento, onde juntos podemos explorar suas emoções, pensamentos e comportamentos para promover mudanças significativas em sua vida."
+  },
+  "services": {
+    "badge": "Serviços",
+    "title": "Como posso ajudar",
+    "description": "Ofereço suporte psicológico especializado para diferentes necessidades, sempre com ética, respeito e profissionalismo.",
+    "items": {
+      "anxiety": {
+        "title": "Ansiedade e Estresse",
+        "description": "Ajuda no gerenciamento da ansiedade e estresse, desenvolvendo equilíbrio emocional e qualidade de vida."
+      },
+      "depression": {
+        "title": "Depressão",
+        "description": "Suporte na superação de episódios depressivos, buscando sentido e recuperando a esperança."
+      },
+      "relationships": {
+        "title": "Relacionamentos",
+        "description": "Trabalho com questões interpessoais, melhorando a comunicação e construindo vínculos saudáveis."
+      },
+      "selfEsteem": {
+        "title": "Autoestima",
+        "description": "Desenvolvimento de uma imagem mais positiva e realista de si mesmo, fortalecendo a confiança."
+      },
+      "grief": {
+        "title": "Luto e Perdas",
+        "description": "Acompanhamento no processo de elaboração do luto, ajudando na adaptação a perdas e mudanças."
+      },
+      "personal": {
+        "title": "Desenvolvimento Pessoal",
+        "description": "Exploração do potencial, definição de objetivos e caminhos para a autorrealização."
+      }
+    },
+    "cta": "Agendar Consulta"
+  },
+  "howItWorks": {
+    "badge": "Como Funciona",
+    "title": "Processo simples e acolhedor",
+    "description": "Começar a terapia online é mais fácil do que você imagina. Siga estes passos simples.",
+    "steps": {
+      "contact": {
+        "title": "Entre em contato",
+        "description": "Envie uma mensagem pelo formulário ou WhatsApp para agendar sua primeira consulta."
+      },
+      "schedule": {
+        "title": "Agende sua sessão",
+        "description": "Escolha a data e horário mais convenientes para sua consulta online."
+      },
+      "session": {
+        "title": "Inicie a terapia",
+        "description": "Conecte-se por videochamada de qualquer lugar e comece sua jornada de autoconhecimento."
+      }
+    }
+  },
+  "whyOnline": {
+    "badge": "Terapia Online",
+    "title": "Por que escolher o atendimento online?",
+    "description": "A terapia online oferece a mesma qualidade do atendimento presencial, com benefícios adicionais que facilitam o cuidado com sua saúde mental.",
+    "benefits": {
+      "comfort": {
+        "title": "Conforto do seu Lar",
+        "description": "Realize suas sessões no ambiente onde você se sente mais seguro e confortável."
+      },
+      "flexibility": {
+        "title": "Flexibilidade de Horários",
+        "description": "Agende suas sessões em horários que se encaixam na sua rotina, inclusive em diferentes fusos."
+      },
+      "noBorders": {
+        "title": "Sem Fronteiras",
+        "description": "Atendimento de qualquer lugar do mundo. Perfeito para expatriados e pessoas em trânsito."
+      },
+      "privacy": {
+        "title": "Privacidade Total",
+        "description": "Sessões seguras e confidenciais através de plataformas criptografadas."
+      },
+      "timeSaving": {
+        "title": "Economia de Tempo",
+        "description": "Sem deslocamentos. Aproveite melhor seu tempo cuidando da sua saúde mental."
+      },
+      "effectiveness": {
+        "title": "Mesma Eficácia",
+        "description": "Estudos comprovam que a terapia online é tão eficaz quanto a presencial."
+      }
+    }
+  },
+  "testimonials": {
+    "badge": "Depoimentos",
+    "title": "O que dizem sobre o atendimento",
+    "description": "A experiência de quem já passou pelo processo terapêutico comigo.",
+    "disclaimer": "* Depoimentos anônimos para preservar a privacidade dos pacientes.",
+    "items": [
+      {
+        "text": "A Love me ajudou a superar um momento muito difícil na minha vida. O atendimento online foi perfeito para mim, pois moro fora do meu país e poder fazer terapia em russo fez toda a diferença.",
+        "author": "M.K.",
+        "location": "Alemanha"
+      },
+      {
+        "text": "Encontrar uma psicóloga que fala ucraniano foi um presente. Me sinto compreendida e acolhida. A terapia online é muito prática e as sessões são tão efetivas quanto presenciais.",
+        "author": "O.S.",
+        "location": "Portugal"
+      },
+      {
+        "text": "Estava cética sobre terapia online, mas a Love me mostrou que funciona perfeitamente. Hoje me sinto mais equilibrada e com mais ferramentas para lidar com a ansiedade.",
+        "author": "A.V.",
+        "location": "Espanha"
+      }
+    ]
+  },
+  "faq": {
+    "badge": "Perguntas Frequentes",
+    "title": "Tem dúvidas?",
+    "description": "Encontre respostas para as perguntas mais comuns sobre terapia online.",
+    "items": {
+      "effective": {
+        "question": "A terapia online é tão eficaz quanto a presencial?",
+        "answer": "Sim, diversas pesquisas mostram que a terapia online é tão eficaz quanto as sessões presenciais para a maioria dos casos. O vínculo terapêutico e as técnicas utilizadas funcionam igualmente bem em ambos os formatos."
+      },
+      "need": {
+        "question": "O que preciso para fazer uma sessão online?",
+        "answer": "Você precisa de um computador, tablet ou smartphone com conexão estável à internet, câmera e microfone. Também é importante ter um local tranquilo e privado para a sessão."
+      },
+      "duration": {
+        "question": "Quanto tempo dura cada sessão?",
+        "answer": "Cada sessão tem duração de aproximadamente 50 minutos. Este é o tempo padrão para sessões de psicoterapia."
+      },
+      "frequency": {
+        "question": "Com que frequência preciso fazer sessões?",
+        "answer": "A frequência varia de acordo com suas necessidades. Geralmente começamos com sessões semanais, e com o tempo a frequência pode ser ajustada."
+      },
+      "confidential": {
+        "question": "As sessões são confidenciais?",
+        "answer": "Absolutamente. A confidencialidade é um princípio fundamental da terapia. Tudo o que é discutido nas sessões é estritamente confidencial, exceto em situações previstas por lei."
+      }
+    }
+  },
+  "cta": {
+    "title": "Pronta para começar sua jornada de autoconhecimento?",
+    "description": "Estou aqui para te acompanhar nesse caminho. Agende sua primeira consulta.",
+    "button": "Agendar Consulta"
+  },
+  "contact": {
+    "badge": "Contato",
+    "title": "Entre em contato",
+    "description": "Ficou com alguma dúvida ou quer agendar? Envie uma mensagem.",
+    "form": {
+      "name": "Nome",
+      "email": "Email",
+      "message": "Mensagem",
+      "send": "Enviar",
+      "namePlaceholder": "Seu nome",
+      "emailPlaceholder": "seu@email.com",
+      "messagePlaceholder": "Escreva sua mensagem..."
+    }
+  },
+  "footer": {
+    "description": "Atendimento psicológico online em russo e ucraniano.",
+    "quickLinks": "Links Rápidos",
+    "contact": "Contato",
+    "rights": "Todos os direitos reservados."
+  },
+  "schedule": {
+    "badge": "Agendar",
+    "title": "Agende sua consulta",
+    "description": "Escolha a melhor forma de entrar em contato e começar sua jornada terapêutica.",
+    "whatsapp": {
+      "title": "WhatsApp",
+      "description": "Envie uma mensagem diretamente pelo WhatsApp para agendamento rápido.",
+      "button": "Abrir WhatsApp"
+    },
+    "email": {
+      "title": "Email",
+      "description": "Envie um email com suas dúvidas ou para agendar.",
+      "button": "Enviar Email"
+    }
+  },
+  "aboutPage": {
+    "qualifications": {
+      "title": "Formação e Qualificações",
+      "graduation": {
+        "title": "Graduação em Psicologia",
+        "description": "Formação completa em Psicologia com foco em psicologia clínica e desenvolvimento humano."
+      },
+      "specialization": {
+        "title": "Especialização",
+        "description": "Especialização em terapia cognitivo-comportamental e atendimento a adultos."
+      },
+      "international": {
+        "title": "Atendimento Internacional",
+        "description": "Experiência em atendimento online para pacientes em diferentes países e fusos horários."
+      }
+    },
+    "cta": {
+      "title": "Vamos conversar?",
+      "description": "Estou aqui para te acompanhar nessa jornada de autoconhecimento e bem-estar."
+    }
+  },
+  "servicesPage": {
+    "title": "Serviços",
+    "subtitle": "Conheça as áreas em que posso te ajudar",
+    "individual": {
+      "title": "Terapia Individual",
+      "description": "Sessões individuais personalizadas para trabalhar questões emocionais, comportamentais e de desenvolvimento pessoal."
+    },
+    "couples": {
+      "title": "Terapia de Casal",
+      "description": "Atendimento para casais que buscam melhorar a comunicação, resolver conflitos e fortalecer o relacionamento."
+    },
+    "expats": {
+      "title": "Orientação para Expatriados",
+      "description": "Suporte especializado para pessoas que vivem fora de seu país de origem, lidando com adaptação cultural e saudades."
+    }
+  },
+  "blog": {
+    "badge": "Blog",
+    "title": "Artigos e Reflexões",
+    "description": "Conteúdos sobre saúde mental, autoconhecimento e bem-estar emocional.",
+    "comingSoon": "Em breve novos artigos",
+    "comingSoonDescription": "Estou preparando conteúdos especiais sobre saúde mental, autoconhecimento e bem-estar. Volte em breve!"
+  },
+  "contactPage": {
+    "title": "Entre em contato",
+    "description": "Tem alguma dúvida ou gostaria de saber mais sobre o atendimento? Entre em contato comigo.",
+    "talkTitle": "Vamos conversar",
+    "talkDescription": "Estou disponível para esclarecer suas dúvidas sobre o atendimento psicológico online. Escolha a forma de contato que preferir.",
+    "whatsappLabel": "Resposta rápida e prática",
+    "info": "Informações",
+    "onlineService": "Atendimento 100% Online",
+    "formTitle": "Envie uma mensagem",
+    "phone": "Telefone (opcional)",
+    "phonePlaceholder": "+34 XXX XXX XXX",
+    "messagePlaceholder": "Como posso ajudar?",
+    "sending": "Enviando...",
+    "sendMessage": "Enviar Mensagem",
+    "successTitle": "Mensagem enviada!",
+    "successMessage": "Obrigada pelo contato. Retornarei em breve."
+  },
+  "schedulePage": {
+    "badge": "Agendamento",
+    "title": "Agende sua consulta",
+    "subtitle": "Dê o primeiro passo em direção ao seu bem-estar emocional. Escolha a forma de agendamento que preferir.",
+    "description": "Dê o primeiro passo em direção ao seu bem-estar emocional. Escolha a forma de agendamento que preferir.",
+    "whatsapp": {
+      "title": "Agende pelo WhatsApp",
+      "description": "A forma mais rápida e prática. Envie uma mensagem e vamos encontrar o melhor horário para você.",
+      "button": "Enviar Mensagem"
+    },
+    "email": {
+      "title": "Agende por Email",
+      "description": "Prefere email? Envie sua solicitação e retornarei com os horários disponíveis.",
+      "button": "Enviar Email",
+      "subject": "Agendamento de Consulta"
+    },
+    "info": {
+      "title": "Informações importantes",
+      "duration": {
+        "title": "Duração da Sessão",
+        "description": "Cada sessão tem duração de 50 minutos."
+      },
+      "frequency": {
+        "title": "Frequência",
+        "description": "A frequência é combinada de acordo com suas necessidades (semanal, quinzenal, etc)."
+      },
+      "timezone": {
+        "title": "Fuso Horário",
+        "description": "Trabalho com horário da Espanha (CET), mas me adapto a diferentes fusos."
+      },
+      "platform": {
+        "title": "Plataforma",
+        "description": "As sessões acontecem por Zoom ou Google Meet."
+      },
+      "languages": {
+        "title": "Idiomas",
+        "description": "Atendimento em russo e ucraniano."
+      },
+      "confidentiality": {
+        "title": "Confidencialidade",
+        "description": "Total sigilo profissional garantido."
+      }
+    },
+    "faqSection": {
+      "title": "Ainda tem dúvidas?",
+      "subtitle": "Confira as perguntas frequentes ou entre em contato diretamente.",
+      "faqButton": "Ver Perguntas Frequentes",
+      "contactButton": "Entrar em Contato"
+    },
+    "whatsappTitle": "Agende pelo WhatsApp",
+    "whatsappDescription": "A forma mais rápida e prática. Envie uma mensagem e vamos encontrar o melhor horário para você.",
+    "whatsappButton": "Enviar Mensagem",
+    "emailTitle": "Agende por Email",
+    "emailDescription": "Prefere email? Envie sua solicitação e retornarei com os horários disponíveis.",
+    "emailButton": "Enviar Email",
+    "infoTitle": "Informações importantes",
+    "sessionDuration": "Duração da Sessão",
+    "sessionDurationDesc": "Cada sessão tem duração de 50 minutos.",
+    "frequency": "Frequência",
+    "frequencyDesc": "A frequência é combinada de acordo com suas necessidades (semanal, quinzenal, etc).",
+    "timezone": "Fuso Horário",
+    "timezoneDesc": "Trabalho com horário da Espanha (CET), mas me adapto a diferentes fusos.",
+    "platform": "Plataforma",
+    "platformDesc": "As sessões acontecem por Zoom ou Google Meet.",
+    "languages": "Idiomas",
+    "languagesDesc": "Atendimento em russo e ucraniano.",
+    "confidentiality": "Confidencialidade",
+    "confidentialityDesc": "Total sigilo profissional garantido.",
+    "stillQuestions": "Ainda tem dúvidas?",
+    "stillQuestionsDesc": "Confira as perguntas frequentes ou entre em contato diretamente.",
+    "viewFaq": "Ver Perguntas Frequentes"
+  },
+  "blogPage": {
+    "badge": "Blog",
+    "title": "Artigos e Reflexões",
+    "subtitle": "Conteúdos sobre saúde mental, bem-estar emocional e dicas para uma vida mais equilibrada.",
+    "description": "Conteúdos sobre saúde mental, bem-estar emocional e dicas para uma vida mais equilibrada.",
+    "readTime": "de leitura",
+    "comingSoon": "Novos artigos em breve!",
+    "comingSoonMessage": "Mais artigos em breve! Estou preparando conteúdos especiais para você.",
+    "newsletter": {
+      "title": "Receba novos conteúdos",
+      "subtitle": "Inscreva-se para receber artigos e dicas sobre saúde mental diretamente no seu email.",
+      "placeholder": "Seu melhor email",
+      "button": "Inscrever"
+    },
+    "newsletterTitle": "Receba novos conteúdos",
+    "newsletterDescription": "Inscreva-se para receber artigos e dicas sobre saúde mental diretamente no seu email.",
+    "emailPlaceholder": "Seu melhor email",
+    "subscribe": "Inscrever",
+    "posts": [
+      {
+        "title": "Como lidar com a ansiedade no dia a dia",
+        "excerpt": "Descubra técnicas práticas para gerenciar a ansiedade e recuperar o equilíbrio emocional em sua rotina.",
+        "category": "Ansiedade",
+        "date": "Em breve",
+        "readTime": "5 min"
+      },
+      {
+        "title": "Os desafios emocionais de viver no exterior",
+        "excerpt": "Reflexões sobre as dificuldades e superações de expatriados, e como cuidar da saúde mental longe de casa.",
+        "category": "Expatriados",
+        "date": "Em breve",
+        "readTime": "7 min"
+      },
+      {
+        "title": "A importância do autoconhecimento",
+        "excerpt": "Entenda por que conhecer a si mesmo é fundamental para uma vida mais equilibrada e relacionamentos saudáveis.",
+        "category": "Desenvolvimento Pessoal",
+        "date": "Em breve",
+        "readTime": "6 min"
+      }
+    ]
+  },
+  "faqPage": {
+    "title": "Perguntas Frequentes",
+    "description": "Encontre respostas para as dúvidas mais comuns sobre o atendimento psicológico online.",
+    "items": [
+      {
+        "question": "Como funciona a terapia online?",
+        "answer": "A terapia online funciona da mesma forma que a presencial, mas através de videochamada. Você se conecta comigo por Zoom ou Google Meet no horário agendado, de um local tranquilo e privado. A sessão dura 50 minutos e mantemos a mesma qualidade e confidencialidade do atendimento presencial."
+      },
+      {
+        "question": "A terapia online é tão eficaz quanto a presencial?",
+        "answer": "Sim! Diversos estudos científicos comprovam que a terapia online tem a mesma eficácia da presencial para a maioria das demandas. Além disso, oferece vantagens como flexibilidade de horários, conforto de estar em casa e eliminação do tempo de deslocamento."
+      },
+      {
+        "question": "Em quais idiomas você atende?",
+        "answer": "Atendo em russo e ucraniano. Oferecer atendimento no seu idioma nativo facilita a expressão de emoções e pensamentos mais profundos, tornando o processo terapêutico mais natural e efetivo."
+      },
+      {
+        "question": "Qual a duração e frequência das sessões?",
+        "answer": "Cada sessão tem duração de 50 minutos. A frequência é combinada de acordo com suas necessidades e objetivos - pode ser semanal, quinzenal ou conforme acordarmos juntos."
+      },
+      {
+        "question": "Como faço para agendar uma consulta?",
+        "answer": "Você pode agendar pelo WhatsApp ou email. Basta entrar em contato, conversamos brevemente sobre suas necessidades e encontramos o melhor horário para você."
+      },
+      {
+        "question": "E se eu estiver em um fuso horário diferente?",
+        "answer": "Trabalho com flexibilidade de horários para atender pessoas em diferentes fusos horários. Meu horário base é o da Espanha (CET), mas me adapto para encontrar um horário que funcione para você."
+      },
+      {
+        "question": "O que preciso para fazer terapia online?",
+        "answer": "Você precisa de um computador ou celular com câmera e microfone, conexão estável de internet, e um local privado e tranquilo onde não será interrompido durante a sessão."
+      },
+      {
+        "question": "As sessões são confidenciais?",
+        "answer": "Absolutamente. O sigilo profissional é garantido por lei e pelo código de ética. Tudo o que conversamos é estritamente confidencial. As sessões não são gravadas e utilizo plataformas com criptografia para garantir sua privacidade."
+      },
+      {
+        "question": "Posso cancelar ou remarcar uma sessão?",
+        "answer": "Sim, você pode cancelar ou remarcar uma sessão com antecedência mínima de 24 horas. Cancelamentos em cima da hora podem ser cobrados integralmente."
+      },
+      {
+        "question": "Como funciona o pagamento?",
+        "answer": "O pagamento é feito antes da sessão, por transferência bancária ou outro método combinado. Valores e formas de pagamento são informados no primeiro contato."
+      },
+      {
+        "question": "Você atende casais?",
+        "answer": "Sim! Ofereço terapia de casal online. As sessões acontecem com ambos os parceiros conectados ao mesmo tempo, cada um em seu dispositivo ou juntos no mesmo local."
+      },
+      {
+        "question": "Como sei se preciso de terapia?",
+        "answer": "Se você está passando por dificuldades emocionais, sentindo-se sobrecarregado, enfrentando problemas de relacionamento, ou simplesmente quer se conhecer melhor, a terapia pode ajudar. Não é preciso estar em crise para buscar acompanhamento psicológico."
+      }
+    ],
+    "notFound": {
+      "title": "Não encontrou sua pergunta?",
+      "description": "Entre em contato diretamente. Terei prazer em esclarecer todas as suas dúvidas.",
+      "contact": "Entrar em Contato"
+    }
+  },
+  "howItWorksPage": {
+    "title": "Terapia online de forma simples",
+    "description": "Entenda como funciona o atendimento psicológico online e prepare-se para sua primeira sessão.",
+    "stepsTitle": "Passo a passo",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Primeiro Contato",
+        "description": "Entre em contato pelo WhatsApp ou formulário do site. Vamos conversar brevemente sobre suas necessidades e esclarecer suas dúvidas iniciais."
+      },
+      {
+        "number": "02",
+        "title": "Agendamento",
+        "description": "Escolha o melhor dia e horário para sua sessão. Trabalho com flexibilidade de horários para atender diferentes fusos horários."
+      },
+      {
+        "number": "03",
+        "title": "Preparação",
+        "description": "Você receberá um link para a videochamada. Certifique-se de estar em um local tranquilo e privado, com boa conexão de internet."
+      },
+      {
+        "number": "04",
+        "title": "Sessão Online",
+        "description": "A sessão acontece por videochamada, com duração de 50 minutos. É um espaço seguro e confidencial para você se expressar."
+      },
+      {
+        "number": "05",
+        "title": "Continuidade",
+        "description": "Ao final, agendamos a próxima sessão. A frequência é combinada de acordo com suas necessidades e objetivos terapêuticos."
+      }
+    ],
+    "requirementsTitle": "O que você precisa",
+    "requirementsDescription": "Para aproveitar ao máximo sua sessão de terapia online, certifique-se de ter:",
+    "requirements": [
+      {
+        "title": "Computador ou Celular",
+        "description": "Com câmera e microfone funcionando"
+      },
+      {
+        "title": "Internet Estável",
+        "description": "Conexão de qualidade para videochamada"
+      },
+      {
+        "title": "Local Privado",
+        "description": "Ambiente tranquilo e sem interrupções"
+      },
+      {
+        "title": "50 Minutos",
+        "description": "Reserve esse tempo para sua sessão"
+      }
+    ],
+    "platformsTitle": "Plataformas utilizadas",
+    "platformsDescription": "As sessões acontecem por videochamada através de plataformas seguras e criptografadas.",
+    "securityTitle": "Segurança e Confidencialidade",
+    "securityDescription": "Sua privacidade é prioridade. Todas as sessões são realizadas em ambiente seguro e as informações compartilhadas são estritamente confidenciais, seguindo o código de ética profissional.",
+    "securityItems": [
+      "Plataformas com criptografia de ponta a ponta",
+      "Sigilo profissional garantido",
+      "Sessões não são gravadas"
+    ]
+  },
+  "servicesPageFull": {
+    "topicsTitle": "Temas trabalhados:",
+    "services": [
+      {
+        "id": 1,
+        "title": "Terapia Individual",
+        "description": "Sessões individuais personalizadas para trabalhar questões emocionais, comportamentais e de desenvolvimento pessoal. Um espaço seguro para explorar seus sentimentos, pensamentos e comportamentos.",
+        "topics": [
+          "Ansiedade e estresse",
+          "Depressão",
+          "Autoestima e autoconfiança",
+          "Relacionamentos interpessoais",
+          "Desenvolvimento pessoal",
+          "Gestão emocional"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Terapia de Casal",
+        "description": "Atendimento para casais que buscam melhorar a comunicação, resolver conflitos e fortalecer o relacionamento. Trabalho com foco na conexão emocional e resolução construtiva de problemas.",
+        "topics": [
+          "Comunicação no relacionamento",
+          "Resolução de conflitos",
+          "Reconexão emocional",
+          "Crises no relacionamento",
+          "Construção de intimidade",
+          "Planejamento de vida a dois"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Acompanhamento para Expatriados",
+        "description": "Suporte especializado para pessoas que vivem fora de seu país de origem. Compreendo os desafios únicos de viver no exterior e ofereço um espaço onde você pode se expressar em seu idioma nativo.",
+        "topics": [
+          "Adaptação cultural",
+          "Saudades e luto pela distância",
+          "Construção de nova identidade",
+          "Solidão e isolamento",
+          "Equilíbrio entre culturas",
+          "Planejamento de vida no exterior"
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Ansiedade e Estresse",
+        "description": "Tratamento focado em técnicas para gerenciar ansiedade, estresse e desenvolver maior equilíbrio emocional. Trabalho com estratégias práticas e eficazes para o dia a dia.",
+        "topics": [
+          "Ataques de pânico",
+          "Ansiedade generalizada",
+          "Estresse no trabalho",
+          "Preocupação excessiva",
+          "Técnicas de relaxamento",
+          "Mindfulness"
+        ]
+      }
+    ],
+    "languageSection": {
+      "title": "Atendimento em seu idioma",
+      "description": "Ofereço atendimento em russo e ucraniano, permitindo que você se expresse livremente em seu idioma nativo. Isso facilita a comunicação e torna o processo terapêutico mais natural e efetivo.",
+      "russian": "Russo",
+      "ukrainian": "Ucraniano"
+    },
+    "cta": {
+      "title": "Pronta para começar?",
+      "description": "Agende uma consulta e dê o primeiro passo em direção ao seu bem-estar emocional.",
+      "questions": "Tirar Dúvidas"
+    }
+  }
+}
