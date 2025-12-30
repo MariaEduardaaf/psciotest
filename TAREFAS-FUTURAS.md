@@ -1,5 +1,31 @@
 # Tarefas Futuras - Site Psicóloga
 
+---
+
+## 🚨 URGENTE - Configurar para Produção
+
+### Configurar Variáveis de Ambiente no Vercel
+**Status:** ⏳ Pendente
+**Prioridade:** URGENTE
+
+**Passos:**
+1. Acessar o projeto no Vercel: https://vercel.com
+2. Ir em **Settings** → **Environment Variables**
+3. Adicionar as seguintes variáveis:
+
+| Variável | Valor |
+|----------|-------|
+| `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` | `pk_live_...` (chave de produção) |
+| `STRIPE_SECRET_KEY` | `sk_live_...` (chave de produção) |
+| `CONSULTATION_PRICE` | `5000` |
+| `CONSULTATION_CURRENCY` | `eur` |
+
+4. Fazer redeploy do projeto
+
+**Nota:** As chaves de produção (`pk_live_` e `sk_live_`) estão no Dashboard do Stripe em **Developers** → **API Keys** (desativar modo teste).
+
+---
+
 ## Funcionalidades Solicitadas pela Cliente
 
 ### 1. Sistema de Agendamento com Pagamento Integrado
