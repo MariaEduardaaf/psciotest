@@ -48,10 +48,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR" className={`${inter.variable} ${playfair.variable}`}>
-      <body className="min-h-screen flex flex-col">
+      <body className="min-h-screen flex flex-col bg-dark">
         <LanguageProvider>
           <Header />
-          <main className="flex-grow">{children}</main>
+          <main className="flex-grow pt-20">{children}</main>
           <Footer />
           <WhatsAppButton />
         </LanguageProvider>

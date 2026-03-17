@@ -34,61 +34,54 @@ export default function LanguageSwitcher() {
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center space-x-2 px-3 py-2 rounded-lg bg-secondary hover:bg-secondary-dark transition-colors"
+        className="flex items-center space-x-2 px-3 py-2 rounded-lg bg-white/[0.04] border border-white/[0.08] hover:bg-white/[0.08] transition-colors"
         aria-label="Selecionar idioma"
       >
         <span className="text-lg">{currentLang.flag}</span>
-        <span className="text-sm font-medium text-text hidden sm:inline">
+        <span className="text-sm font-medium text-white/60 hidden sm:inline">
           {currentLang.name}
         </span>
         <svg
-          className={`w-4 h-4 text-text-light transition-transform ${isOpen ? "rotate-180" : ""}`}
+          className={`w-4 h-4 text-white/40 transition-transform ${isOpen ? "rotate-180" : ""}`}
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
         >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M19 9l-7 7-7-7"
-          />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
         </svg>
       </motion.button>
 
       <AnimatePresence>
         {isOpen && (
           <>
-            {/* Overlay para fechar o dropdown */}
             <div
               className="fixed inset-0 z-10"
               onClick={() => setIsOpen(false)}
             />
             <motion.div
-              initial={{ opacity: 0, y: -10 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -10 }}
+              initial={{ opacity: 0, y: -10, scale: 0.95 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              exit={{ opacity: 0, y: -10, scale: 0.95 }}
               transition={{ duration: 0.2 }}
-              className="absolute right-0 mt-2 w-44 bg-white rounded-lg shadow-lg border border-secondary-dark overflow-hidden z-20"
+              className="absolute right-0 mt-2 w-44 rounded-xl overflow-hidden z-20 glass-card"
             >
               {languages.map((lang) => (
-                <motion.button
+                <button
                   key={lang.code}
-                  whileHover={{ backgroundColor: "rgba(139, 90, 43, 0.1)" }}
                   onClick={() => handleLanguageChange(lang)}
-                  className={`w-full flex items-center space-x-3 px-4 py-3 text-left transition-colors ${
+                  className={`w-full flex items-center space-x-3 px-4 py-3 text-left transition-colors duration-200 ${
                     language === lang.code
-                      ? "bg-secondary"
-                      : "hover:bg-secondary/50"
+                      ? "bg-white/[0.08]"
+                      : "hover:bg-white/[0.05]"
                   }`}
                 >
                   <span className="text-xl">{lang.flag}</span>
-                  <span className="text-sm font-medium text-text">
+                  <span className="text-sm font-medium text-white/70">
                     {lang.name}
                   </span>
                   {language === lang.code && (
                     <svg
-                      className="w-4 h-4 text-primary ml-auto"
+                      className="w-4 h-4 text-accent ml-auto"
                       fill="currentColor"
                       viewBox="0 0 20 20"
                     >
@@ -99,7 +92,7 @@ export default function LanguageSwitcher() {
                       />
                     </svg>
                   )}
-                </motion.button>
+                </button>
               ))}
             </motion.div>
           </>
